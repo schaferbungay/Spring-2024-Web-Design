@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Bungay Advertising
+    </title>
+    <!-- Define the character set used: -->
+    <meta charset="UTF-8">
+    <!-- Provide a description of your page: -->
+    <meta name="description" content="">
+    <!-- Provide the author information for the page: -->
+    <meta name="author" content="Schafer Bungay">
+    <!-- Other meta elements -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            background-color: black;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: 14px;
+            color: white;
+        }
+        
+        table {
+        border: 1px solid black;
+        }
+
+    </style>
+</head>
+
+<body>
+    <img src="images/Bungay-Advertising_21022023_Final.png" width="300" height="300" alt="Bungay Advertising Logo" title="Bungay Advertising Logo" />
+   <h1>
+        Contact Us
+    </h1>
+    <p><a href="mailto:admin@bungayadvertising.com">Send us an email!</a></p>
+    <address>
+        Bungay Advertising<br />
+        2432 South 5th Street West Suite A<br />
+        Missoula, MT 59801<br />
+        (406) 270-0834<br />
+    </address>
+    <p>
+        <table>
+            <tr>
+                <th>Days/Hours</th>
+            </tr>
+            <tr>
+                <td>Monday</td>
+                <td>2 pm - 7 pm</td>
+            </tr>
+            <tr>
+                <td>Tuesday</td>
+                <td>2 pm - 7 pm</td>
+            </tr>
+            <tr>
+                <td>Wednesday</td>
+                <td>2 pm - 7 pm</td>
+            </tr>
+            <tr>
+                <td>Thursday</td>
+                <td>2 pm - 7 pm</td>
+            </tr>
+            <tr>
+                <td>Friday</td>
+                <td>9 am - 7 pm</td>
+            </tr>
+            <tr>
+                <td>Saturday</td>
+                <td>9 am - 7 pm</td>
+            </tr>
+            <tr>
+                <td>Sunday</td>
+                <td>9 am - 7 pm</td>
+            </tr>
+        </table>
+    </p>
+    <form method="POST" action="index.html">
+             Name:<br/>
+             <input type="text" id="name" placeholder="Enter your name" autofocus>
+             <p></p>
+             Newsletter?<br/>
+             <p></p>   
+             Yes&nbsp;<input type="radio" name="newsletter" id="newsletter" value="Y">
+             No&nbsp;<input type="radio" name="newsletter" id="newsletter" value="N">
+             <p></p>
+             <form action="https://www.example.com/subscribe.php" method="post">
+                <p>Subscribe to newsletter:</p>
+                  <input type="text" name="email" />
+                  <input type="submit" name="subscribe" value="Subscribe" />
+             </form>
+             <p>What Questions Do You Have?:</p>
+            <input type="checkbox" name="service" value="lab" /> How Effective is This?
+             <br />
+            <input type="checkbox" name="service" value="library" /> Do You Have Any Case Studies?
+            <br />
+             <input type="checkbox" name="service" value="online" checked /> Are There Any Guarantees?
+             <br />
+            <input type="checkbox" name="service" value="recreation" /> What Makes You Different?<br/>
+            <p></p>
+             More Questions<br/>
+             <textarea name="comments" id="comments" placeholder="Have a different quesiton? Leave it here!" rows="10" cols="30"></textarea>
+             <p></p>
+             <input type="image" src="images/Bungay-Advertising_21022023_Final.png" height="150" width="150"/>
+
+    </form>
+</body>
+
+</html>
